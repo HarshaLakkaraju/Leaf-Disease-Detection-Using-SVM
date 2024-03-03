@@ -10,7 +10,7 @@ def endprogram():
 
 
 #Reading the image by parsing the argument 
-
+#addign ad reading will be done 
 text = str(ImageFile[0])
 print ("\n*********************\nImage : " + text + "\n*********************")
 img = cv2.imread(text)
